@@ -1,0 +1,47 @@
+# === Global ===
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*.log
+.env
+.env.*
+
+# === Python / FastAPI backend ===
+backend/__pycache__/
+backend/*.pyc
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.DS_Store
+backend/.vscode/
+backend/instance/
+backend/.venv/
+backend/venv/
+backend/*.sqlite3
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# === Node / Frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.DS_Store
+frontend/.vscode/
+frontend/.env
+frontend/package-lock.json
+frontend/yarn.lock
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+*.iml
+
+# === Misc ===
+*.bak
+*.tmp

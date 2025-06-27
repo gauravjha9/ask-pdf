@@ -1,0 +1,31 @@
+# Environment Variable Management
+python-dotenv
+
+
+# FastAPI
+fastapi[standard]
+uvicorn
+pydantic
+pydantic-settings
+
+
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+
+# PDF Load
+pypdf
+
+
+# Vector store
+# faiss-cpu
+# conda install -c pytorch faiss-cpu
+
